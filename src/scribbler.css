@@ -1,0 +1,38 @@
+/* Copyright (c) 2016 Michiel van der Blonk */
+
+#pen {
+	color: #01b4f0;
+	position:absolute;
+	top:-110px;
+	left:-70px;
+	z-index: 10000;
+}
+
+@media (min-width: 768px) { 
+	#pen {
+		width: 500px;
+		height: 50px;
+		top:-110px;
+		left:-70px;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    #pen {    
+		width: 400px;
+		height: 40px;
+		top:-130px;
+		left:-35px;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    #pen    {
+		width: 250px;
+		height: 25px;
+		top:-120px;
+		left:-35px;
+    }
+}
